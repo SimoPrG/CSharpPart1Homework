@@ -1,0 +1,47 @@
+Some of the most popular programming languages are Java, C, C++, Python, C#, PHP, Ruby and others.
+
+1. Java
+
+Both C# and Java are class-based object-oriented programming languages.
+The Java primitive types are special in that they are not object-oriented
+and they could not have been defined using the language itself.
+C# has a unified type system in which all types ultimately derive from a common root type.
+Consequently, all types implement the methods of this root type,
+and extension methods defined for the object type apply to all types,
+even primitive int literals and delegates.
+This allows C# to support objects with encapsulation that are not reference types.
+
+2. C
+
+C is an imperative (procedural) language. It was designed to be compiled using a relatively
+straightforward compiler, to provide low-level access to memory, to provide language constructs
+that map efficiently to machine instructions, and to require minimal run-time support.
+C was therefore useful for many applications that had formerly been coded in assembly language,
+such as in system programming.
+
+3. C++
+
+C++ is a general-purpose programming language. It has imperative, object-oriented and generic
+programming features, while also providing the facilities for low-level memory manipulation.
+C++ derived from C but it is object-oriented as well and includes classes.
+It is also standardized by ISO.
+
+4. Python
+
+Python is easy to learn, it is good for cross platform development,
+and it has availability of open source libraries.
+C# is better than Python in: standard library, language features, development process and tools,
+performance, language evolution speed.
+
+5. PHP
+
+PHP is a scripting language designed for web development. It is on the server-side.
+The difference between PHP and C# is that PHP is dynamic and interpreted while C# is static.
+Another big difference is that PHP is not OO and also it does not support threading.
+
+6. Ruby
+
+Ruby is a dynamic, reflective, object-oriented, general-purpose programming language.
+Ruby on Rails websites don’t usually have service layers, nor do they have explicit data access
+layers in the form that you see in C#, such as the repository pattern. The controllers tend to
+interact directly with the model, and without interfaces.
