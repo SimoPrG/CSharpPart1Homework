@@ -22,12 +22,15 @@ numbers 	sum
 */
 
 using System;
+using System.Globalization;
+using System.Threading;
 
 class SumOfNNumbers
 {
     static void Main()
     {
         Console.Title = "Sum of n Numbers"; //Changing the title of the console.
+        Thread.CurrentThread.CurrentCulture = CultureInfo.CreateSpecificCulture("en-US"); //Setting the culture to en-US
 
         Console.Write("Please, enter an integer n and n numbers after that.\nn: ");
         int n = int.Parse(Console.ReadLine());
