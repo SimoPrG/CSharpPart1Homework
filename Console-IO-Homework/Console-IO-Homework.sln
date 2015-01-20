@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sum3Numbers", "Sum3Numbers\Sum3Numbers.csproj", "{D8AECD4D-E44E-4042-B4BB-66FFEDAEB667}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Sum3Numbers", "Sum3Numbers\01. Sum3Numbers.csproj", "{D8AECD4D-E44E-4042-B4BB-66FFEDAEB667}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrintCompanyInfo", "PrintCompanyInfo\PrintCompanyInfo.csproj", "{95B91968-CBA4-4EB1-AD8A-439FEDB33619}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. PrintCompanyInfo", "PrintCompanyInfo\02. PrintCompanyInfo.csproj", "{95B91968-CBA4-4EB1-AD8A-439FEDB33619}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CirclePerimeterAndArea", "CirclePerimeterAndArea\CirclePerimeterAndArea.csproj", "{9C3670B4-C9CE-4F2C-920D-100753CB17F5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{95B91968-CBA4-4EB1-AD8A-439FEDB33619}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{95B91968-CBA4-4EB1-AD8A-439FEDB33619}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{95B91968-CBA4-4EB1-AD8A-439FEDB33619}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C3670B4-C9CE-4F2C-920D-100753CB17F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C3670B4-C9CE-4F2C-920D-100753CB17F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C3670B4-C9CE-4F2C-920D-100753CB17F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C3670B4-C9CE-4F2C-920D-100753CB17F5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

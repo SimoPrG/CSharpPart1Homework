@@ -27,17 +27,12 @@ Manager: Nikolay Kostov (age: 25, tel. +359 2 981 981)
 */
 
 using System;
-using System.Globalization;
-using System.Text;
-using System.Threading;
 
 class PrintCompanyInfo
 {
     static void Main()
     {
         Console.Title = "Print Company Information"; //Changes the title of the console.
-        Thread.CurrentThread.CurrentCulture = CultureInfo.CreateSpecificCulture("en-US"); // Sets the culture to en-US. 
-        Console.OutputEncoding = Encoding.UTF8; // Sets the output to UTF8.
 
         Console.Clear(); //Clears the console.
         Console.Write
