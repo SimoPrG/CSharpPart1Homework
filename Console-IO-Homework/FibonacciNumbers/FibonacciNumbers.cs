@@ -24,14 +24,11 @@ class FibonacciNumbers
         int n = int.Parse(Console.ReadLine());
         string[] fiboMembers = new string[n]; // This array will keep the members of the Fibonacci sequence.
 
-        for (long i = 0, previousMember = 0, nextMember = 1, temp; i < n; i++)
-        // In the for loop we declare the first two members of the sequence (0 and 1) and a temp variable 
-        // needed for the calculations.
+        for (long i = 0, a = 0, b = 1; i < n; i++)// In the for loop we declare a counter i and the first two members of the sequence (0 and 1).
         {
-            fiboMembers[i] = previousMember.ToString(); //We convert the member to string and we place it in its array position.
-            temp = nextMember;//After that we assign the value of the next member to temp.
-            nextMember += previousMember;//Then we add the previous member to the next member.
-            previousMember = temp;//Finally, we assign the value of the temp to the previous member.
+            fiboMembers[i] = a.ToString(); //We convert the member to string and we place it in its array position.
+            b = a + b;//Then we add the previous member to the next member.
+            a = b - a;//From the new next member we substract the previous member. (b=a+b and so b - a is a+b - a = b)
         }
         Console.WriteLine(string.Join(", ",fiboMembers)); //Creating a string in the requested format and printing it.
 
