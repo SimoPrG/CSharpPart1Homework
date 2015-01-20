@@ -29,11 +29,12 @@ class SumOfNNumbers
     {
         Console.Title = "Sum of n Numbers"; //Changing the title of the console.
 
-        Console.Write("Please, enter an integer n: ");
+        Console.Write("Please, enter an integer n and n numbers after that.\nn: ");
         int n = int.Parse(Console.ReadLine());
         double sum = 0;
         for (int i = 1; i <= n; i++)
         {
+            Console.Write("number {0}: ", i);
             sum += double.Parse(Console.ReadLine());
         }
         Console.WriteLine("\nsum = " + sum);
