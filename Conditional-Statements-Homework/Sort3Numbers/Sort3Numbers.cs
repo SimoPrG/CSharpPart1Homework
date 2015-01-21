@@ -39,19 +39,19 @@ class Sort3Numbers
         {
             if (b < c)
             {
-                Console.WriteLine("\n{0,-16}{1,-16}{2,-16}", "a", "b", "c");
+                Console.WriteLine("\r\n{0,-16}{1,-16}{2,-16}", "a", "b", "c");
                 Console.WriteLine("{0,-16}{1,-16}{2,-16}", c, b, a);
             }
             else
             {
                 if (a < c)
                 {
-                    Console.WriteLine("\n{0,-16}{1,-16}{2,-16}", "a", "b", "c");
+                    Console.WriteLine("\r\n{0,-16}{1,-16}{2,-16}", "a", "b", "c");
                     Console.WriteLine("{0,-16}{1,-16}{2,-16}", b, c, a);
                 }
                 else
                 {
-                    Console.WriteLine("\n{0,-16}{1,-16}{2,-16}", "a", "b", "c");
+                    Console.WriteLine("\r\n{0,-16}{1,-16}{2,-16}", "a", "b", "c");
                     Console.WriteLine("{0,-16}{1,-16}{2,-16}", b, a, c);
                 }
             }
@@ -60,19 +60,19 @@ class Sort3Numbers
         {
             if (b > c)
             {
-                Console.WriteLine("\n{0,-16}{1,-16}{2,-16}", "a", "b", "c");
+                Console.WriteLine("\r\n{0,-16}{1,-16}{2,-16}", "a", "b", "c");
                 Console.WriteLine("{0,-16}{1,-16}{2,-16}", a, b, c);
             }
             else
             {
                 if (a > c)
                 {
-                    Console.WriteLine("\n{0,-16}{1,-16}{2,-16}", "a", "b", "c");
+                    Console.WriteLine("\r\n{0,-16}{1,-16}{2,-16}", "a", "b", "c");
                     Console.WriteLine("{0,-16}{1,-16}{2,-16}", a, c, b);
                 }
                 else
                 {
-                    Console.WriteLine("\n{0,-16}{1,-16}{2,-16}", "a", "b", "c");
+                    Console.WriteLine("\r\n{0,-16}{1,-16}{2,-16}", "a", "b", "c");
                     Console.WriteLine("{0,-16}{1,-16}{2,-16}", c, a, b);
                 }
             }
