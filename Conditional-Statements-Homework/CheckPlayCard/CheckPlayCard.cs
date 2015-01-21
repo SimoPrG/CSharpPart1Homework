@@ -38,8 +38,8 @@ class CheckPlayCard
             case "J":
             case "Q":
             case "K":
-            case "A": Console.WriteLine("\nValid card sign?\nyes"); break;
-            default: Console.WriteLine("\nValid card sign?\nno"); break;
+            case "A": Console.WriteLine("\r\nValid card sign?\r\nyes"); break;
+            default: Console.WriteLine("\r\nValid card sign?\r\nno"); break;
         }
 
         Console.ReadKey(); // Keeping the console opened.
