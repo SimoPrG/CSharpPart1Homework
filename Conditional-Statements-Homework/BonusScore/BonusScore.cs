@@ -32,14 +32,14 @@ class BonusScore
         {
             case 1:
             case 2:
-            case 3: bonus = score * 10; Console.WriteLine("\nresult\n" + bonus); break;
+            case 3: bonus = score * 10; Console.WriteLine("\r\nresult\r\n" + bonus); break;
             case 4:
             case 5:
-            case 6: bonus = score * 100; Console.WriteLine("\nresult\n" + bonus); break;
+            case 6: bonus = score * 100; Console.WriteLine("\r\nresult\r\n" + bonus); break;
             case 7:
             case 8:
-            case 9: bonus = score * 1000; Console.WriteLine("\nresult\n" + bonus); break;
-            default: Console.WriteLine("\nresult\ninvalid score"); break;
+            case 9: bonus = score * 1000; Console.WriteLine("\r\nresult\r\n" + bonus); break;
+            default: Console.WriteLine("\r\nresult\r\ninvalid score"); break;
         }
 
         Console.ReadKey(); // Keeping the console opened.
