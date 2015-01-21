@@ -20,6 +20,7 @@ class ExchangeIfGreater
     {
         Console.Title = "Exchange If Greater"; //Changing the title of the console.
         Thread.CurrentThread.CurrentCulture = CultureInfo.CreateSpecificCulture("en-US"); //Setting the culture to en-US
+
         Console.WriteLine("Please, enter two numbers 'a' and 'b'!");
         Console.Write("a: ");
         double a = double.Parse(Console.ReadLine());
@@ -33,7 +34,7 @@ class ExchangeIfGreater
             b = temp;
         }
 
-        Console.WriteLine("\nresult\n{0} {1}", a, b);
+        Console.WriteLine("\r\nresult\r\n{0} {1}", a, b);
 
         Console.ReadKey(); // Keeping the console opened.
     }
