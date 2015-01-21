@@ -40,7 +40,7 @@ class BiggestOf3Numbers
             biggest = c;
         }
 
-        Console.WriteLine("\n{0,-16}{1,-16}{2,-16}{3}", "a", "b", "c", "biggest");
+        Console.WriteLine("\r\n{0,-16}{1,-16}{2,-16}{3}", "a", "b", "c", "biggest");
         Console.WriteLine("{0,-16}{1,-16}{2,-16}{3}", a, b, c, biggest);
 
         Console.ReadKey(); // Keeping the console opened.
