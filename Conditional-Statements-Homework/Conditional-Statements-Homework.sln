@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. ExchangeIfGreater", "Ex
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. BonusScore", "BonusScore\02. BonusScore.csproj", "{D1D164F1-6F65-4908-960A-90F211B8D7B9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. CheckPlayCard", "CheckPlayCard\03. CheckPlayCard.csproj", "{A31482A0-08F3-4DC4-93E7-AACDD8020B46}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{D1D164F1-6F65-4908-960A-90F211B8D7B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D1D164F1-6F65-4908-960A-90F211B8D7B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D1D164F1-6F65-4908-960A-90F211B8D7B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A31482A0-08F3-4DC4-93E7-AACDD8020B46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A31482A0-08F3-4DC4-93E7-AACDD8020B46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A31482A0-08F3-4DC4-93E7-AACDD8020B46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A31482A0-08F3-4DC4-93E7-AACDD8020B46}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
