@@ -35,7 +35,7 @@ class MultiplicationSign
         if (a == 0 || b == 0 || c == 0)
         {
             result = '0';
-            Console.WriteLine("\n{0,-16}{1,-16}{2,-16}{3}", "a", "b", "c", "result");
+            Console.WriteLine("\r\n{0,-16}{1,-16}{2,-16}{3}", "a", "b", "c", "result");
             Console.WriteLine("{0,-16}{1,-16}{2,-16}{3}", a, b, c, result);
 
             Console.ReadKey(); // Keeping the console opened.
@@ -44,13 +44,13 @@ class MultiplicationSign
         if ((a > 0 && b > 0 && c > 0) || (a > 0 && b < 0 && c < 0) || (a < 0 && b > 0 && c < 0) || (a < 0 && b < 0 && c > 0))
         {
             result = '+';
-            Console.WriteLine("\n{0,-16}{1,-16}{2,-16}{3}", "a", "b", "c", "result");
+            Console.WriteLine("\r\n{0,-16}{1,-16}{2,-16}{3}", "a", "b", "c", "result");
             Console.WriteLine("{0,-16}{1,-16}{2,-16}{3}", a, b, c, result);
         }
         else
         {
             result = '-';
-            Console.WriteLine("\n{0,-16}{1,-16}{2,-16}{3}", "a", "b", "c", "result");
+            Console.WriteLine("\r\n{0,-16}{1,-16}{2,-16}{3}", "a", "b", "c", "result");
             Console.WriteLine("{0,-16}{1,-16}{2,-16}{3}", a, b, c, result);
         }
 
