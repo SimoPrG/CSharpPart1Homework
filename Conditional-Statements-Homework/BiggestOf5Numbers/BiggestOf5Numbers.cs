@@ -51,8 +51,8 @@ class BiggestOf5Numbers
         {
             biggest = e;
         }
-        Console.WriteLine("\n{0,-10}{1,-10}{2,-10}{3,-10}{4,-10}{5}", "a", "b", "c", "d", "e", "biggest");
-        Console.WriteLine("{0,-105}{1,-10}{2,-10}{3,-10}{4,-10}{5}", a, b, c, d, e, biggest);
+        Console.WriteLine("\r\n{0,-10}{1,-10}{2,-10}{3,-10}{4,-10}{5}", "a", "b", "c", "d", "e", "biggest");
+        Console.WriteLine("{0,-10}{1,-10}{2,-10}{3,-10}{4,-10}{5}", a, b, c, d, e, biggest);
 
         Console.ReadKey(); // Keeping the console opened.
     }
