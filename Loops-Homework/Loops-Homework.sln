@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. NumbersFrom1ToN", "Numb
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. NotDivisibleBy3And7", "NotDivisibleBy3And7\02. NotDivisibleBy3And7.csproj", "{97AA165A-1BDF-45B8-9AE1-174B86BD0747}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. MinMaxSumAverage", "MinMaxSumAverage\03. MinMaxSumAverage.csproj", "{643DA960-5413-4226-A216-710FD9D2076B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{97AA165A-1BDF-45B8-9AE1-174B86BD0747}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{97AA165A-1BDF-45B8-9AE1-174B86BD0747}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{97AA165A-1BDF-45B8-9AE1-174B86BD0747}.Release|Any CPU.Build.0 = Release|Any CPU
+		{643DA960-5413-4226-A216-710FD9D2076B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{643DA960-5413-4226-A216-710FD9D2076B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{643DA960-5413-4226-A216-710FD9D2076B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{643DA960-5413-4226-A216-710FD9D2076B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
