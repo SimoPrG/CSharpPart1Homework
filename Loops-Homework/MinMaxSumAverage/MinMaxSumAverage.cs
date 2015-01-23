@@ -31,22 +31,13 @@ class MinMaxSumAverage
         Console.Write("Please, enter a positive number N: ");
         int n = int.Parse(Console.ReadLine());
         int sum = 0;
-        int? min = null;
-        int? max = null;
-        /*We use nullable types for min and max
-         */
+        int min = int.MaxValue;
+        int max = int.MinValue;
+
         for (int number, i = 0; i < n; i++)
         {
             Console.Write("Please, enter a number: ");
             number = int.Parse(Console.ReadLine());
-            if (!min.HasValue)
-            {
-                min = number;
-            }
-            if (!max.HasValue)
-            {
-                max = number;
-            }
             if (number < min)
             {
                 min = number;
