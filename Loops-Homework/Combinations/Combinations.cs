@@ -15,6 +15,7 @@ n 	k 	n! / (k! * (n-k)!)
 */
 
 using System;
+using System.Numerics;
 
 class Combinations
 {
@@ -27,12 +28,12 @@ class Combinations
         Console.Write("Please, enter an integer K (1...N): ");
         int k = int.Parse(Console.ReadLine());
 
-        long numerator = 1;
+        BigInteger numerator = 1;
         for (int i = n - k + 1; i <= n; i++)
         {
             numerator *= i;
         }
-        long denominator = 1;
+        BigInteger denominator = 1;
         for (int i = 2; i <= k; i++)
         {
             denominator *= i;
