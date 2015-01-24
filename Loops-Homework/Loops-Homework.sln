@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. FactorialSum", "Factori
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. FactorialDivision", "FactorialDivision\06. FactorialDivision.csproj", "{A0EB696D-A172-4D9A-B51B-14478FAFFD07}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07. Combinations", "Combinations\07. Combinations.csproj", "{CF8AD81F-4FDD-41AC-8A79-185A21AA19A1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{A0EB696D-A172-4D9A-B51B-14478FAFFD07}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A0EB696D-A172-4D9A-B51B-14478FAFFD07}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A0EB696D-A172-4D9A-B51B-14478FAFFD07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF8AD81F-4FDD-41AC-8A79-185A21AA19A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF8AD81F-4FDD-41AC-8A79-185A21AA19A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF8AD81F-4FDD-41AC-8A79-185A21AA19A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF8AD81F-4FDD-41AC-8A79-185A21AA19A1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

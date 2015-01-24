@@ -25,6 +25,7 @@ class PrintDeck52Cards
     static void Main()
     {
         Thread.CurrentThread.CurrentCulture = CultureInfo.InvariantCulture;
+        Console.Title = "Print a Deck of 52 Cards"; //Changing the title of the console.
 
         string output = null;
         for (int rang = 0; rang < 13; rang++)

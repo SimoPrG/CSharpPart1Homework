@@ -17,6 +17,8 @@ class FactorialDivision
 {
     static void Main()
     {
+        Console.Title = "Calculate N! / K!"; //Changing the title of the console.
+
         Console.Write("Please, enter a positive integer N (1...100): ");
         int n = int.Parse(Console.ReadLine());
         Console.Write("Please, enter an integer K (1...N): ");
