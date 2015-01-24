@@ -36,10 +36,10 @@ class FactorialSum
         Console.ReadKey(); // Keeping the console opened.
     }
 
-    static double Factorial(double i) // the method takes a long as an input and it also returns a long
+    static long Factorial(long i) // the method takes a long as an input and it also returns a long
     {
         if (i <= 1) // if i is 1 or less, the method returns 1.
-            return 1d;
+            return 1;
         return i * Factorial(i - 1); // the method is calling itself. for example if we execute Factorial(3); it will return
     }                                // 3 * Factorial(3 - 1) which is 3 * Factorial(2) which is 3 * 2 * Factorial(2-1)
 }                                    // which is 3 * 2 * Factorial(1) which is 3 * 2 * 1 = 6
