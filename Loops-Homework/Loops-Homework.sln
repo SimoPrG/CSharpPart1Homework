@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. MinMaxSumAverage", "Min
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. PrintDeck52Cards", "PrintDeck52Cards\04. PrintDeck52Cards.csproj", "{E097A4FE-F335-4E13-879B-B0A688611A9F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. FactorialSum", "FactorialSum\05. FactorialSum.csproj", "{9BD754A2-14CB-40EF-B83F-5DC9470B947F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{E097A4FE-F335-4E13-879B-B0A688611A9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E097A4FE-F335-4E13-879B-B0A688611A9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E097A4FE-F335-4E13-879B-B0A688611A9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BD754A2-14CB-40EF-B83F-5DC9470B947F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BD754A2-14CB-40EF-B83F-5DC9470B947F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BD754A2-14CB-40EF-B83F-5DC9470B947F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BD754A2-14CB-40EF-B83F-5DC9470B947F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
