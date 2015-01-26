@@ -22,15 +22,29 @@ class BinaryToDecimal
 
         Console.Write("Please, enter a binary number: ");
         string binary = Console.ReadLine();
+
+        bool isNegative = false;
+        if (binary.StartsWith("-"))
+        {
+            isNegative = true;
+            binary = binary.Replace("-", "");
+        }
+
         int sum = 0;
         for (int j = 0, i = binary.Length - 1; i >= 0; j++, i--)
         {
-            if (binary[i]=='1')
+            if (binary[i] == '1')
             {
                 sum += 1 << j;
             }
         }
-        Console.WriteLine("\r\nbinary: {0}\r\ndecimal: {1}", binary, sum);
+
+        if (isNegative)
+        {
+            sum = -sum;
+        }
+
+        Console.WriteLine("\r\ndecimal number: {0}", sum);
 
         Console.ReadKey(); // Keeping the console opened.
     }
