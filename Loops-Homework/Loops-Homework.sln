@@ -35,6 +35,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15. HexadecimalToDecimal", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "16. DecimalToHexadecimal", "DecimalToHexadecimal\16. DecimalToHexadecimal.csproj", "{9EE83AAB-A01E-404B-8330-72F5E56793BA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "17. GCD", "GCD\17. GCD.csproj", "{5912540D-C1EB-4D2B-B7A0-A61E0B97ABE1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -105,6 +107,10 @@ Global
 		{9EE83AAB-A01E-404B-8330-72F5E56793BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9EE83AAB-A01E-404B-8330-72F5E56793BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9EE83AAB-A01E-404B-8330-72F5E56793BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5912540D-C1EB-4D2B-B7A0-A61E0B97ABE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5912540D-C1EB-4D2B-B7A0-A61E0B97ABE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5912540D-C1EB-4D2B-B7A0-A61E0B97ABE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5912540D-C1EB-4D2B-B7A0-A61E0B97ABE1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
