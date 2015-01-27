@@ -39,6 +39,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "17. GCD", "GCD\17. GCD.cspr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "18. FactorielZeroes", "FactorielZeroes\18. FactorielZeroes.csproj", "{33309935-40EA-448A-9049-BEB8B52466BB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpiralMatrix", "SpiralMatrix\SpiralMatrix.csproj", "{454E1B09-AA80-403B-B392-9C39F65948B0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -117,6 +119,10 @@ Global
 		{33309935-40EA-448A-9049-BEB8B52466BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{33309935-40EA-448A-9049-BEB8B52466BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{33309935-40EA-448A-9049-BEB8B52466BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{454E1B09-AA80-403B-B392-9C39F65948B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{454E1B09-AA80-403B-B392-9C39F65948B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{454E1B09-AA80-403B-B392-9C39F65948B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{454E1B09-AA80-403B-B392-9C39F65948B0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
