@@ -1,6 +1,6 @@
 # CSharpPart1Homework
 
-In this repository I keep all the homework from the C# part 1 training @ Telerik Academy. The training has 6 courses:
+In this repository I keep all the homework from the C# part 1 course @ Telerik Academy. The course has 6 lessons:
 
 1. Introduction to Programming [Homework](https://github.com/TelerikAcademy/CSharp-Part-1/blob/master/1.%20Introduction%20to%20Programming/README.md)
 2. Primitive Types and Variables [Homework](https://github.com/TelerikAcademy/CSharp-Part-1/blob/master/2.%20Data%20Types%20and%20Variables/README.md)
