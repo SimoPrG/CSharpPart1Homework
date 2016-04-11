@@ -12,3 +12,4 @@ In this repository I keep all the homework from the C# part 1 course @ Telerik A
 You can find the lectures @ [Youtube](https://www.youtube.com/channel/UCLC-vbm7OWvpbqzXaoAMGGw).
 
 There is also a book you can read. [Fundamentals of Computer Programming with C#](http://www.introprogramming.info/english-intro-csharp-book/read-online/)
+
